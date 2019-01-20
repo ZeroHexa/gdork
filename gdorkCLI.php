@@ -1,6 +1,7 @@
 <?php
 # Special for Monkey B Luffy / asu
 # coded by UstadCage_48
+error_reporting(0);
 function wr($cl,$st){
 	 $cc .= "\033[" . $cl . "m";
 	 $cc .=  $st . "\033[0m";
